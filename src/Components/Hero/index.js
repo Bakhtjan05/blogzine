@@ -13,7 +13,7 @@ function Hero() {
 
 
     return (
-        <section>
+        <section className='rounded'>
             <Carousel indicators={false} controls={false} interval={5000}>
                 {imageSrc.map((src, index) => (
                     <Carousel.Item key={index}>
